@@ -1,0 +1,17 @@
+{
+  "name": "tests_for_nexontis",
+  "version": "1.0.0",
+  "description": "Template projektu testów automatycznych z CodeceptJS + Playwright",
+  "scripts": {
+    "test": "npx codeceptjs run --plugins allure",
+    "headful": "npx codeceptjs run --verbose --steps --show"
+  },
+  "dependencies": {
+    "@codeceptjs/configure": "^1.0.0"
+  },
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "codeceptjs": "^3.7.5",
+    "playwright": "^1.56.1"
+  }
+}
